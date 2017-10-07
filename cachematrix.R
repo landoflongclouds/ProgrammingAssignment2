@@ -1,7 +1,7 @@
 ## Put comments here that give an overall description of what your
 ## functions do
 
-## Write a short comment describing this function
+## This function creates a special "matrix" object that can cache its inverse, also raise message if an un-invertiable matrix is supplied. 
 
 makeCacheMatrix <- function(x = matrix()) {
   m <- NULL
@@ -23,7 +23,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## This function checks if cached inverse result exists, returns cached if exists else calcualte the inverse
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
